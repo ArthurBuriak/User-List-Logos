@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="form-user">
+            <div class="form-block">
+                <div class="form-label">
+                    <label for="">Login</label>
+                </div>
+                <div class="form-input">
+                    <input type="text" class="login" placeholder="Login" pattern="[A-Za-z]{4,16}">
+                </div>
+            </div>
+            <div class="form-block">
+                <div class="form-label">
+                    <label for="">Password</label>
+                </div>
+                <div class="form-input">
+                    <input type="password" class="password" placeholder="Password" pattern="[A-Za-z]{4,16}">
+                </div>
+            </div>
+            <div class="form-block">
+                <div class="form-label">
+                    <label for="">Email</label>
+                </div>
+                <div class="form-input">
+                    <input type="text" class="email" placeholder="Email" pattern="([^0-9A-Z]|[a-z]|[0-9]){2,}[^@]@(net\.ua|org\.ua|gmail\.com)">
+                </div>
+            </div>
+            <div class="form-button">
+                <button class="add">Add user</button>
+                <button class="edit-user">Edit user</button>
+            </div>
+        </div>
+        <div class="get-user">
+            <div class="main-user" id="main-user">
+                <div class="user-panel">
+                    <div class="user-block">#</div>
+                    <div class="user-block">Login</div>
+                    <div class="user-block">Password</div>
+                    <div class="user-block">Email</div>
+                    <div class="user-block">Edit</div>
+                    <div class="user-block">Delete</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div id="cont">
+        <div class="dot" style="background-color: red; height: 20px;">1</div>
+        <div class="dot" style="background-color: yellow; height: 20px;">2</div>
+        <div class="dot" style="background-color: orange; height: 20px;">3</div>
+    </div> -->
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
